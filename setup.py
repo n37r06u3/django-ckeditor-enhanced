@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'django-ckeditor-enhanced',
-    version = '1.2',
+    version = '1.4',
     keywords = ('django','ckeditor'),
     description = 'django-ckeditor-updated with codesnippet plugin support',
 
@@ -16,7 +16,7 @@ setup(
     install_requires=[
                       'Django',
                       ],
-
+    include_package_data=True,
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
