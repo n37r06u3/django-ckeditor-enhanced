@@ -5,3 +5,13 @@ django-ckeditor-updated with codesnippet plugin support
 
 # install
 pip install django-ckeditor-enhanced
+
+# config in settings.py
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'toolbar_Full',
+        'height': 500,
+        'width': '100%',
+        "extraPlugins" : 'codesnippet',
+    },
+}
